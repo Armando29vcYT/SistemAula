@@ -30,7 +30,7 @@ html {
 
 .header {
     
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ html {
 .titulo {
     font-size: 2rem;
     color: var(--blanco);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: var(--fuentePrincipal);
 } 
 
@@ -54,12 +54,14 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 3rem;
 }
 
 .formulario {
     
+    
     width:30rem;
-    height: 30rem;
+    height:30rem;
     border-radius: 1rem;
 display: flex;
 flex-direction: column;

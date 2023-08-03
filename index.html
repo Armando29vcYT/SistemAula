@@ -6,54 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tec</title>
     <link rel="icon" href="img/LOGO-TECNOLOGICO-DEL-ISTMO.png">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <!-- <link rel="stylesheet" href="css/app.css"> -->
     <link rel="stylesheet" href="css/app2.css">
-    
+
 </head>
 
 <body>
+    <div class="contenedor">
+        <div class="caja1">
+            <h1>Sistema de gestión</h1>
+            <h2>HORAS-AULAS</h2>
+            <img src="img/Tec/coffe time-6010.svg" alt="imagen" class="img">
+        </div>
+        <div class="caja2">
+            <main class="login">
 
-    <header class="header background-primario">
-        <img src="img/Tec/coffe time-6010.svg" alt="imagen" class="img">
-        <h1 class="titulo" >Sistema de gestión</h1>
-        <h2 class="titulo" >HORAS-AULAS</h2>
-        <a href="#" class="nocturno active">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-filled" width="44"
-                height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
-                stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                <path
-                    d="M12 1.992a10 10 0 1 0 9.236 13.838c.341 -.82 -.476 -1.644 -1.298 -1.31a6.5 6.5 0 0 1 -6.864 -10.787l.077 -.08c.551 -.63 .113 -1.653 -.758 -1.653h-.266l-.068 -.006l-.06 -.002z"
-                    stroke-width="0" fill="black" />
-            </svg>
-        </a>
+                <form action="" method="" class="formulario">
+                    <div class="txt1">
+                        <label>Bienvenido</label>
+                    </div>
+                    <div class="txt2">
+                        <label >Por favor ingresa tus datos</label>
+                    </div>
+                    <div class="entrada">
+                        <input type="text" id="user" placeholder="Email">
+                    </div>
+                    <div class="entrada">
+                        <input type="text" user="user" placeholder="Contraseña">
+                    </div>
+                    <div class="btn">
+                        <button>Acceder</button>
+                    </div>
+                   <div class="txt3">
+                    <a href="#" class="txt3">¿Aún no tienes una cuenta? Regístrate</a>
+                   </div>
+                    
+                </form>
 
- 
-    </header>
+            </main>
+        </div>
 
-    <main class="login">
-
-        <form action="" method="" class="formulario background-primario">
-
-            <div class="entrada">
-                <label for="user">Usuario: </label>
-                <input type="text" id="user">
-            </div>
-            <div class="entrada">
-                <label for="pass">Contraseña: </label>
-                <input type="text" user="user">
-            </div>
-
-            <button class="btn">Enviar</button>
-
-        </form>
-
-    </main>
-
-
-    <script src="js/index.js"></script>
-
+    </div>
 </body>
 
 </html>

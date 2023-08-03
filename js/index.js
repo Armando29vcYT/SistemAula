@@ -6,14 +6,6 @@ function modoNocturnoFn(e) {
  const formulario = document.querySelector(".formulario");
  const dia = document.querySelector(".dia");
 
- 
-
- 
-
- 
-
- 
-
 if(this.classList.toggle("active")){
     header.classList.remove("background-primario")
     header.classList.add("background-white")
