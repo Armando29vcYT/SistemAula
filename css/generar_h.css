@@ -1,3 +1,130 @@
-.contenedor{
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.nav_bar {
+    border-bottom: 2px solid rgba(216, 216, 216, 0.637);
+    height: 4rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+
+.nav_bar ul {
+    float: right;
+    margin-right: 2rem;
+}
+
+.nav_bar ul li {
+    display: inline-block;
+    line-height: 4rem;
+    margin: 0 .5rem;
+}
+
+.nav_bar ul li a {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+.nav_bar ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: .2rem;
+}
+
+.nav_bar ul li a:hover {
+    background-color: rgb(13, 58, 109);
+    color: white;
+}
+
+.contenedor {
+    display: flex;
     flex-direction: row;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Lista*/
+.btn_g {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+.btn_g:hover {
+    background-color: rgb(13, 58, 109);
+    color: white;
+}
+
+/*Tabla*/
+.contenedor2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor2 .tarjeta {
+    width: 550px;
+    height: 320px;
+    display: flex;
+    background: #0A2647;
+    float: left;
+    top: 5rem;
+    position: relative;
+    border-radius: 20px;
+}
+
+.contenedor2 .tarjeta table {
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+}
+
+thead {
+    position: sticky;
+    top: 0px;
+    border-bottom: solid 5px #c0c0c0;
+    background-color: #0A2647;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    font-size: 20px;
+    transition: all ease 150ms;
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.contenedor2 .tarjeta td:hover {
+    background-color: #0A2647;
+    color: white;
+    transform: translate(5px);
 }
