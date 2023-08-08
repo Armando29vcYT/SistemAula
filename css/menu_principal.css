@@ -1,0 +1,174 @@
+:root{
+    /*width: 6rem;*/
+    --FuentePrimaria: Poppins;
+    --width: 18rem;
+    --padding: 1rem;
+    --color_fondo: #ceddef;
+    --color_flotante: #207ae7;
+    --width_colapsar: 4rem;
+}
+body{
+    background-color: #cad1f0;
+    font-family: var(--FuentePrimaria);
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+    margin-left: var(--width_colapsar);
+}
+.body-expanded{
+    margin-left: var(--width);
+}
+/*Menu de Interfaz*/
+.main_contenedor{
+    padding: 3rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /*background-color: orange;*/
+    
+}
+.main_contenedor .portada__texto {
+    color: black;
+    font-family: var(--FuentePrimaria);
+    font-size: 1.4rem;
+}
+.main_contenedor .span_texto{
+    color: black;
+    font-size: 2rem;
+}
+.btn{
+    border-radius: 1rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+        background-color: #1F3C88;
+        color: white;
+        font-family: var(--FuentePrimaria);
+        border-radius: 1rem;
+}
+.main_contenedor .caja2{
+    background-color: #090086;
+    border-radius: 3rem;
+    color: white;
+    font-size: .5rem;
+    width: 15rem;
+    height: 20rem;
+    margin-left: 10rem;
+display: flex;
+padding: 1rem;
+flex-direction: column;
+align-items: center;
+}
+.main_contenedor .caja2 img{
+    width: 50%;
+}
+.main_contenedor .caja2 .span_text{
+    width: 60%;
+    margin: 1.5rem;
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+
+
+#sidemenu{
+    background-color: var(--color_fondo);
+    color: white;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+#sidemenu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+/*Cabecera*/
+#sidemenu #header #menu-btn{
+    vertical-align: middle;
+}
+#sidemenu #header #menu-btn{
+    display: inline-block;
+}
+#sidemenu #header #menu-btn{
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/*#sidemenu #header #menu-btn:hover{
+    background-color: var(--color_flotante);
+}*/
+/*Perfil*/
+#sidemenu #profile #photo{
+box-sizing: border-box;
+/*padding: var(--padding);*/
+margin: 0 auto;
+}
+#sidemenu #profile #photo img{
+ width: 50%;
+ display: flex;
+ margin: auto;
+}
+/*Items*/
+#sidemenu #menu-items{
+    overflow: hidden;
+}
+#sidemenu #menu-items .item{
+    width: var(--width);
+}
+#sidemenu #menu-items .item .icon{
+display: inline-block;
+}
+#sidemenu #menu-items .item ,.title{
+    font-size: 1.5rem;
+    overflow: hidden;
+    display: inline-block;
+}
+#sidemenu #menu-items a{
+    display: block;
+}
+#sidemenu #menu-items a:hover{
+    /*background-color: var(--color_flotante);*/
+    transform: translate(2px); box-shadow: 0 5px 5px #090086;
+    background-color: rgba(0, 14, 94, 0.123);
+    transition: all 0.25s;
+}
+#sidemenu #menu-items .item .icon{
+    width: var(--width_colapsar);
+    padding-top: 5px;
+}
+/*menu expandido*/
+.menu-expanded{
+    width: var(--width);
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 5);   
+}
+.menu-expanded #header #title{
+    display: inline-block;
+    width: calc(100%-5rem);
+    margin-right: -5px;
+    padding: var(--padding);
+}
+.menu-expanded #header #title span{
+    width: calc(var(--width)-var(--width_colapsar));
+    overflow: hidden;
+}
+.body-expanded .profile .photo{
+    width: 12.5rem;
+}
+.menu-collapsed{
+    width: var(--width_colapsar);
+}
+.menu-collapsed #header #title{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+.menu-collapsed .item{
+    width: 8rem;
+}

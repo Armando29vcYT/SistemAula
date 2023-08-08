@@ -6,25 +6,33 @@
     <title>Sistema de Aulas</title>
     <link rel="icon" href="img/Menu_Principal/Logo_Tec.png">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/registro_usuario.css">
 </head>
 <body>
     <main class="contenido">
-        <div class="portada">
-            <h1 class="portada__texto">Sistema <br>de gestión <span class="portada__texto--span">Horas - aulas</span></h1>
-            <img src="img/Tec/img3.svg" alt="" class="imagen__portada">
-        </div>
         <div class="login">
             <h2 class="login__heading">Bienvenido <span class="login__mensaje">Por favor ingrese tus datos.</span></h2>
             <form class="formulario" action="" method="POST">
                 <div class="login__entrada">
+                    <input class="login__input" type="text" placeholder="Nombre">
+                </div>
+                <div class="login__entrada">
+                    <input class="login__input" type="text" placeholder="Apellido">
+                </div>
+                <div class="login__entrada">
                     <input class="login__input" type="email" placeholder="Email">
+                </div>
+                <div class="login__entrada">
+                    <input class="login__input" type="text" placeholder="Departamento">
                 </div>
                 <div class="login__entrada">
                     <input class="login__input" type="password" placeholder="Contraseña">
                 </div>
+                <div class="login__entrada">
+                    <input class="login__input" type="password" placeholder="Comprobar Contraseña">
+                </div>
     
-                <a href="#" class="btn">Acceder</a>
+                <a href="#" class="btn">Registrar</a>
             </form>
 
             <a href="#" class="noaccount">¿Aún no tienes cuenta? Regístrate</a>

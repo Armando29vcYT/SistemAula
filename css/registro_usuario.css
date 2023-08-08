@@ -61,40 +61,13 @@ body{
 @media (min-width: 789px){
     .contenido {
         max-width: 100%;
-        margin-top: 20rem;
+        margin-top: 5rem;
         justify-items: center;
     }
 }
-
-.portada__texto{
-    font-size: 4rem;
-    text-align: center;
-    font-family: var(--FuentePrimaria);
-}
-
-@media (min-width: 789px){
-    .portada__texto {
-        font-size: 4rem;
-        text-align: left;
-    }
-}
-
-.portada__texto--span {
-    display: block;
-    text-transform: uppercase;
-    color: var(--colorTercero);
-}
-
-@media (min-width: 789px){
-    .portada__texto--span {
-        font-size: 6rem;
-        text-align: left;
-    }
-}
-
 @media (min-width: 789px){
     .contenido {
-        display: grid;
+        /*display: grid;*/
         grid-template-columns: repeat(2,1fr);
         gap: 2rem;
     }
@@ -114,7 +87,7 @@ body{
 .login{
     
     width: 30rem;
-    height: 30rem;
+    height: 60rem;
     background-color: var(--blanco);
     padding: 2rem;
     border-radius: 3rem;  
@@ -124,9 +97,9 @@ body{
     .login{
     
         width: 40rem;
-        height: 60rem;
+        height: 63rem;
 
-        padding: 2rem 8rem 2rem 8rem;
+        padding: 2rem 6rem 2rem 6rem;
 
    
     }
@@ -185,7 +158,6 @@ body{
 
 .login__input:focus{
     outline: none;
-
     border-bottom: 2px solid var(--colorPrimario);
 
 }
