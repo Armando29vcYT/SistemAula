@@ -1,0 +1,42 @@
+CREATE TABLE [IF NOT EXISTS] profesor (
+   apellido varchar,
+   nombre varchar,
+   cedula varchar,
+   tipo_carrera varchar
+);
+
+
+INSERT INTO public.profesor(
+	apellido, nombre, cedula, tipo_carrera)
+	VALUES 
+('Aragon Reyes', 'Vera Alejandro', '2063827','Licenciatura'),
+('Blas Sanchez', 'Mariano', '3094685','Licenciatura'),
+('Castillejos Gonzalez', 'Jose Manuel','4380034','Licenciatura'),
+('Castillejos Toledo', 'Maribel','11013822', 'Maestría'),
+('Cernas Cruz', 'Amelia Soledad','3295510', 'Licenciatura'),
+('Cruz Reyna', 'Maria Janeth','9787641', 'Maestría'),
+('Cuevas Valdiviezo', 'Manuel','6496127', 'Licenciatura'),
+('Dehesa Valencia', 'Gaston','2596178', 'Maestría'),
+('Garcia Orozco', 'Daniel','12049232', 'Maestría'),
+('Gomez Valdiviezo', 'Maria Isabel','11050640', 'Maestría'),
+('Jimenez Aquino', 'Maria Cecilia','10961841', 'Maestría'),
+('Lopez Chirinos', 'Jesus','3701293', 'Licenciatura'),
+('Lopez Esteva', 'Marena','3295503', 'Licenciatura'),
+('Lopez Perales', 'Jose Feliciano','1351796', 'Licenciatura'),
+('Lopez Posada', 'Jose Antonio','2427322', 'Licenciatura'),
+('Maranto Iglesias', 'Jorge','3311958', 'Licenciatura'),
+('Medina Varela', 'Ruben','3342583', 'Licenciatura'),
+('Nuñez Cordova', 'Mario','5520998', 'Licenciatura'),
+('Olivares Perez', 'Angel','2493131', 'Licenciatura'),
+('Orozco Alvarez', 'Sayonara','9701257', 'Maestría'),
+('Peralta Gonzalez', 'Lorena','9430069', 'Maestría'),
+('Peralta Regalado', 'David','9714136', 'Maestría'),
+('Quiñones Pineda', 'Irma','7971309', 'Maestría'),
+('Ramirez Regalado', 'Alberto','3351226', 'Licenciatura'),
+('Ruiz Sanchez', 'Ivan','3065182', 'Licenciatura'),
+('Rasgado Sánchez', 'Juvenal','7054688', 'Maestría'),
+('Rivera Castillo', 'Ranulfo','941270', 'Licenciatura'),
+('Santiago Salinas', 'Humberto','11168046', 'Maestría'),
+('Toledo Coronel', 'Eloy','1552073', 'Licenciatura'),
+('Toledo Cruz', 'Luciano','1270274', 'Licenciatura'),
+('Toledo Torres', 'Jacinto','7971310', 'Maestría');
